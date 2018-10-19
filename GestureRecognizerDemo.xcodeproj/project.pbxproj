@@ -12,6 +12,7 @@
 		61A2B088217A702700779D04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61A2B086217A702700779D04 /* Main.storyboard */; };
 		61A2B08A217A702A00779D04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61A2B089217A702A00779D04 /* Assets.xcassets */; };
 		61A2B08D217A702A00779D04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61A2B08B217A702A00779D04 /* LaunchScreen.storyboard */; };
+		61A2B095217A719600779D04 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A2B094217A719600779D04 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		61A2B089217A702A00779D04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61A2B08C217A702A00779D04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61A2B08E217A702A00779D04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61A2B094217A719600779D04 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		61A2B081217A702700779D04 /* GestureRecognizerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				61A2B094217A719600779D04 /* Extensions.swift */,
 				61A2B082217A702700779D04 /* AppDelegate.swift */,
 				61A2B084217A702700779D04 /* ViewController.swift */,
 				61A2B086217A702700779D04 /* Main.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				61A2B085217A702700779D04 /* ViewController.swift in Sources */,
+				61A2B095217A719600779D04 /* Extensions.swift in Sources */,
 				61A2B083217A702700779D04 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
